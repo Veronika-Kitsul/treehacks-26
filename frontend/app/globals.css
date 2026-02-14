@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f8f9fa;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+button {
+  padding: 0.6rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.scores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.score-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.score-card .value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.score-card .label {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+.vuln-list {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.vuln-list h2 {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 1rem;
+  background: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.vuln-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.vuln-item:last-child {
+  border-bottom: none;
+}
+
+.vuln-item .file {
+  font-family: ui-monospace, monospace;
+  font-size: 0.875rem;
+  color: #475569;
+}
+
+.vuln-item .line {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-left: 0.5rem;
+}
+
+.vuln-item .description {
+  margin-top: 0.35rem;
+  color: #334155;
+}
+
+.vuln-item .suggestion {
+  margin-top: 0.35rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.severity {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.severity-CRITICAL {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.severity-HIGH {
+  background: #fed7aa;
+  color: #9a3412;
+}
+
+.severity-MEDIUM {
+  background: #fef08a;
+  color: #854d0e;
+}
+
+.severity-LOW {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 1rem;
+}
+
+.loading {
+  color: #64748b;
+  margin-top: 1rem;
+}
+
+.repo-display {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}

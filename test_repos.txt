@@ -1,0 +1,13 @@
+# Test repos for security scanner (from ideation: Claude + ChatGPT)
+# Intentionally vulnerable / security-focused repos — good for validating findings
+
+# Intentionally vulnerable apps (Claude: "Test on a known-vulnerable repo")
+https://github.com/WebGoat/WebGoat
+https://github.com/anxolerd/dvpwa
+
+# Security tooling / rule sets (Claude: Semgrep rules, attack cheat sheet)
+https://github.com/returntocorp/semgrep-rules
+https://github.com/riramar/Web-Attack-Cheat-Sheet
+
+# Similar scanner (Claude search: nullgaze — AI code security scanner)
+https://github.com/samvallad33/nullgaze-scanner
