@@ -1748,4 +1748,4 @@ Don't claim "AI detection" as core feature
 Use it as supporting context for security findings
 Focus on vulnerability detection (your real value)
 
-The story isn't "we can detect AI code" - it's "AI-generated code has systematic security issues, and we found them."
+The story isn't "we can detect AI code" - it's "AI-generated code has systematic security issues, and we found them."gi
