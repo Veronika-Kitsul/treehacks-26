@@ -1,0 +1,1 @@
+Hackathon project by maks and nika for treehacks 2026
